@@ -38,6 +38,11 @@ footer a{
 /* header*/
 header{
     background-color: #FF6900;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
 }
 header .row{
     display: flex;
@@ -47,7 +52,7 @@ header .row{
     vertical-align: middle;
     padding: 15px 20px;
     font-size: 12px;
-}
+    }
 .logo{
     max-width: 60%;
 }
@@ -75,6 +80,7 @@ header i{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 70px;
 }
 main img{
     max-width: 440px;
