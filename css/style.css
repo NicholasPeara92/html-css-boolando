@@ -34,6 +34,12 @@ footer a{
     font-size: 10px;
     margin-right: 5px;
 }
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+}
 
 /* header*/
 header{
@@ -137,6 +143,7 @@ main img{
     bottom: 100px;
     left: 10px;
 }
+/* hover */
 .shopping-section:hover .img-default{
     display: none;
 }
