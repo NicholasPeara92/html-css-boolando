@@ -125,6 +125,9 @@ main img{
     bottom: 100px;
     left: 55px;
 }
+.shopping-section:last-child .sostenibility{
+    left: 10px;
+}
 .for-sale{
     background-color: red;
     padding: 5px 8px;
