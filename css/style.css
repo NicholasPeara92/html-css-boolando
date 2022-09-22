@@ -21,6 +21,10 @@ span{
 main .container{
     margin-bottom: 50px;
 }
+ul{
+    display: flex;
+    list-style: none;
+}
 
 /* typography */
 body{
@@ -33,12 +37,6 @@ footer h3{
 footer a{
     font-size: 10px;
     margin-right: 5px;
-}
-li{
-    list-style: none;
-}
-ul{
-    display: flex;
 }
 
 /* header*/
@@ -69,7 +67,8 @@ header .row{
 .header-icons{
     min-width: 20%;
     color: white;
-    text-align: end;
+    display: flex;
+    justify-content: flex-end;
 }
 header .col{
     min-width: 20%;
